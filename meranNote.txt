@@ -606,6 +606,9 @@
                   - useEffect(callbackfn, dependency) : used to apply side effects to a functional component. we can pass side effect as its first argument as call back function,  we can also pass an optional dependency argument to decide when to apply side effects in component
                   - useRef(initial value): is a react hook that lets you reference a value that's not needed for rendering. Initial value is optional , it returns an object  "current" key
                 - Custom hooks :   create js file to define a specific  function for a  special task. export the function from that file.  function name must start with 'use' keyword
+                - useSelector() - hook used to select state from a redux store
+                - useDispath() - hook used to dispatch action from component
+                - useParams() - hooks will return dynamic value of route associated with a component
         13. Form handling in react :  There are 2  ways to hmanage data inside the form by a component
           - Controlled Components :  are componeents which store form data inside its own state
           - Uncontrolled Components : components who access form data using its DOM elements reference
